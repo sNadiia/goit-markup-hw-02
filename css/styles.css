@@ -42,7 +42,7 @@ color: var(--web-color);
     color:var(--title-color);
 }
 
-.links {
+.link-studio, .link-portfolio, .link-contacts {
 font-weight: 600;
 line-height: 1.5;
 color: var(--title-color);
@@ -170,7 +170,7 @@ color: var(--web-color);
 background: var(--cloud-background);
 cursor: pointer;
 }
-.portfolio-button:active {
+.portfolio-button:active, .portfolio-button:hover, .portfolio-button:focus {
     background: var(--web-color);
     color: var(--white-color);
 }
